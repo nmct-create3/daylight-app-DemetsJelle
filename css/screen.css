@@ -293,6 +293,10 @@ input::placeholder {
   max-width: 25em;
   margin: 0 auto;
   padding: 2em;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .c-app__summary {
@@ -306,6 +310,7 @@ input::placeholder {
 */
 .c-horizon {
   margin-bottom: 2em;
+  margin-top: auto;
 }
 
 .c-horizon__line {
